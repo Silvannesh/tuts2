@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>GetPrintQueue</Title>
+            <Author>Content Master</Author>
+            <Shortcut>GetPrintQueue</Shortcut>
+            <Description>Method to return a PrintQueue from a PrintDialog.</Description>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[private PrintQueue GetPrintQueue()
+        {
+            // Create an instance of the printing dialog.
+            PrintDialog dialog = new PrintDialog();
+            
+            // Return the PrintQueue for the printer selected in the dialog.
+            if (dialog.ShowDialog().GetValueOrDefault())
+                return dialog.PrintQueue;
+
+            // Return null if the dialog was cancelled.
+            return null;
+        }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

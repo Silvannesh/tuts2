@@ -23,5 +23,10 @@ namespace _1stDayWPF
         {
             InitializeComponent();
         }
+
+        private void TreeViewItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

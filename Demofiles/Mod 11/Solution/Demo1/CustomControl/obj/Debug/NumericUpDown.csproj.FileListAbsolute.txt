@@ -1,0 +1,13 @@
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\bin\Debug\NumericUpDown.exe
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\bin\Debug\NumericUpDown.pdb
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\ResolveAssemblyReference.cache
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\Window1.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\app.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\NumericUpDown_MarkupCompile.cache
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\NumericUpDown_MarkupCompile.lref
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\themes\generic.baml
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\Window1.baml
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\NumericUpDown.g.resources
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\NumericUpDown.exe
+E:\Demofiles\Mod 11\Solution\Demo1\CustomControl\obj\Debug\NumericUpDown.pdb

@@ -1,0 +1,51 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="WidthAndHeight">
+
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="BorderBrush" Value="Black" />
+                <Setter Property="BorderThickness" Value="2" />
+            </Style>
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="200" />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0">
+            <!--<Image Source="c:\users\public\pictures\sample pictures\jellyfish.jpg" 
+                   Stretch="Fill" />-->
+        </Border>
+
+        <Border Grid.Row="1">
+            <!--<Border.Background>
+                <ImageBrush ImageSource="c:\users\public\pictures\sample pictures\penguins.jpg" />
+            </Border.Background>-->
+        </Border>
+
+        <Border Grid.Row="2">
+            <!--<Border.Background>
+                <DrawingBrush>
+                    <DrawingBrush.Drawing>
+                        <DrawingGroup>
+                            <ImageDrawing Rect="0,0,150,100" 
+                                      ImageSource="c:\users\public\pictures\sample pictures\hydrangeas.jpg" />
+                            <ImageDrawing Rect="150,0,150,100" 
+                                      ImageSource="c:\users\public\pictures\sample pictures\tulips.jpg" />
+                            <ImageDrawing Rect="0,100,300,100" 
+                                      ImageSource="c:\users\public\pictures\sample pictures\chrysanthemum.jpg" />
+                        </DrawingGroup>
+                    </DrawingBrush.Drawing>
+                </DrawingBrush>
+            </Border.Background>-->
+        </Border>
+
+    </Grid>
+</Window>

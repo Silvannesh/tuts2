@@ -1,0 +1,15 @@
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\bin\Debug\TriggerUpdateDemo.exe
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\bin\Debug\TriggerUpdateDemo.pdb
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\MainWindow.g.cs
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\App.g.cs
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo_MarkupCompile.cache
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo_MarkupCompile.lref
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\MainWindow.baml
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo.g.resources
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo.Properties.Resources.resources
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo.exe
+E:\Demofiles\Mod 06\Starter\Demo2\DataUpdateDemo\obj\x86\Debug\TriggerUpdateDemo.pdb

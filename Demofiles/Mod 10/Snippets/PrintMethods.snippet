@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>PrintMethods</Title>
+            <Author>Content Master</Author>
+            <Shortcut>PrintMethods</Shortcut>
+            <Description>Methods to print fixed and flow documents.</Description>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[private void Print(FlowDocument flowDoc)
+        {
+            Print((IDocumentPaginatorSource)flowDoc);
+        }
+
+        private void Print(IDocumentPaginatorSource paginatorSource)
+        {
+            // Get a print queue to print the document to.
+            PrintQueue queue = GetPrintQueue();
+            if (queue == null)
+                return;
+
+            // Create an XPS document writer.
+            XpsDocumentWriter writer = PrintQueue.CreateXpsDocumentWriter(queue);
+            
+            // Write the document to the print queue in XPS format.
+            writer.Write(paginatorSource.DocumentPaginator);
+
+            MessageBox.Show("Printing complete.");
+        }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

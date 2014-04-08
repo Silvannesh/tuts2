@@ -1,0 +1,14 @@
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\bin\Debug\UserControl.exe
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\bin\Debug\UserControl.pdb
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\ResolveAssemblyReference.cache
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\NumericUpDown.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\Window1.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\app.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\UserControl_MarkupCompile.cache
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\UserControl_MarkupCompile.lref
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\NumericUpDown.baml
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\Window1.baml
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\UserControl.g.resources
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\UserControl.exe
+E:\Demofiles\Mod 11\Solution\Demo1\UserControl\obj\Debug\UserControl.pdb

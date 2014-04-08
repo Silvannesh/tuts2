@@ -1,0 +1,56 @@
+﻿<Window x:Class="PrintingDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Printing Demo" Height="640" Width="480">
+
+    <TabControl>
+
+        <!-- First Page -->
+        <TabItem Header="Fixed Document">
+            <DockPanel Margin="5">
+                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Margin="0,5,0,0">
+                    <Button 
+                        x:Name="buttonPrintFixed"
+                        Content="Print" 
+                        Click="buttonPrintFixed_Click"
+                        Width="60" />
+                </StackPanel>
+                <DocumentViewer x:Name="viewerContent">
+                    <DocumentViewer.Document>
+                        
+                        <!-- Fixed Document Content-->
+                        <FixedDocument>
+                            <PageContent>
+                                <FixedPage>
+                                    <TextBlock 
+                                        FontFamily="Cambria" 
+                                        FontSize="20pt" 
+                                        Padding="60"
+                                        Text="PAGE 1: This page one of a fixed document." />
+                                </FixedPage>
+                            </PageContent>
+                        </FixedDocument>
+                    
+                    </DocumentViewer.Document>
+                </DocumentViewer>
+            </DockPanel>
+        </TabItem>
+        
+        <!-- Second Page -->
+        <TabItem Header="Flow Document">
+            <DockPanel Margin="5">
+                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Margin="0,5,0,0">
+                    <Button 
+                        x:Name="buttonPrintFlow"
+                        Content="Print" 
+                        Click="buttonPrintFlow_Click"
+                        Width="60" />
+                </StackPanel>
+                
+                <!-- Flow Document Content-->
+                <RichTextBox x:Name="textboxContent" />
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+    
+</Window>
